@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Register</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="regsiter-body">
+
+<!--Navigation bar-->
+
+<nav class="navbar fixed-top navbar-expand-md navbar-dark fixed-top">
+<div class="container">
+
+<!--Brand-->
+<a class="navbar-brand" href="index.html">Online Library Management System</a>
+
+<!--To display an icon in mobile view-->
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" >
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!--Links-->
+<div class="collapse navbar-collapse" id="navbar">
+
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="login.html">Student-Login</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="register.html">Register</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="book.html">Book</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="feedback.html">Feedback</a>
+</li>
+</ul>
+
+</div>
+
+</div>
+</nav>
+<!--End of Navigation bar-->
+<br><br><br><br>
+<!--Register-->
+
+<div class="container" id="register">
+
+  <form class="was-validated">
+  
+  
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" placeholder="Enter name" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+	
+  
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" placeholder="Enter email" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+	
+	
+    <div class="form-group">
+      <label for="contact">Contact:</label>
+      <input type="phone" class="form-control" placeholder="Enter phone number" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+	
+	 <div class="form-group">
+      <label for="Password">Password:</label>
+      <input type="password" class="form-control" placeholder="Enter password" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+	
+    <center><button type="submit" class="btn btn-danger">REGISTER</button></center>
+	
+  </form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
